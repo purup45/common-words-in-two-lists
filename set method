@@ -1,0 +1,9 @@
+d="how is everything"
+e="how is your life going on"
+
+print(list(set(d)&set(e)))
+or
+print((list(filter(lambda x:x in v.split(),w.split()))))
+
+or
+print(set(d.split()).intersection(set(e.split()))
